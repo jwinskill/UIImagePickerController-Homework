@@ -21,6 +21,15 @@
 		038BE88619316A2F007F2736 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038BE86819316A2F007F2736 /* UIKit.framework */; };
 		038BE88E19316A2F007F2736 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 038BE88C19316A2F007F2736 /* InfoPlist.strings */; };
 		038BE89019316A2F007F2736 /* Homework2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 038BE88F19316A2F007F2736 /* Homework2Tests.m */; };
+		038BE89B19316AA8007F2736 /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 038BE89A19316AA8007F2736 /* BlogPost.m */; };
+		038BE8A019316DDF007F2736 /* BlogPostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 038BE89F19316DDF007F2736 /* BlogPostTableViewCell.m */; };
+		038BE8A41931900F007F2736 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038BE8A31931900F007F2736 /* DetailViewController.m */; };
+		038BE8AA1931C549007F2736 /* UIColor+CustomColorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 038BE8A91931C549007F2736 /* UIColor+CustomColorCategory.m */; };
+		03F6EE0E1932D39C009A731B /* colorfulMustache.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F6EE0D1932D39C009A731B /* colorfulMustache.png */; };
+		03F6EE101932D3A7009A731B /* NSMustache.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F6EE0F1932D3A7009A731B /* NSMustache.png */; };
+		03F6EE121933088A009A731B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F6EE111933088A009A731B /* AssetsLibrary.framework */; };
+		03F6EE1519330CC6009A731B /* UIImage+MonoChromeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6EE1419330CC6009A731B /* UIImage+MonoChromeFilter.m */; };
+		03F6EE1819330F75009A731B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F6EE1719330F75009A731B /* CoreImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +43,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		038BE86119316A2F007F2736 /* Homework2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		038BE86119316A2F007F2736 /* UIImagePickerControllerHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImagePickerControllerHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		038BE86419316A2F007F2736 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		038BE86619316A2F007F2736 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		038BE86819316A2F007F2736 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		038BE86C19316A2F007F2736 /* Homework2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Homework2-Info.plist"; sourceTree = "<group>"; };
+		038BE86C19316A2F007F2736 /* UIImagePickerControllerHomework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIImagePickerControllerHomework-Info.plist"; sourceTree = "<group>"; };
 		038BE86E19316A2F007F2736 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		038BE87019316A2F007F2736 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		038BE87219316A2F007F2736 /* Homework2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Homework2-Prefix.pch"; sourceTree = "<group>"; };
-		038BE87319316A2F007F2736 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		038BE87419316A2F007F2736 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		038BE87019316A2F007F2736 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		038BE87219316A2F007F2736 /* UIImagePickerControllerHomework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerControllerHomework-Prefix.pch"; sourceTree = "<group>"; };
+		038BE87319316A2F007F2736 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		038BE87419316A2F007F2736 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		038BE87719316A2F007F2736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		038BE87919316A2F007F2736 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		038BE87A19316A2F007F2736 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		038BE87919316A2F007F2736 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		038BE87A19316A2F007F2736 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		038BE87C19316A2F007F2736 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		038BE88219316A2F007F2736 /* Homework2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Homework2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		038BE88219316A2F007F2736 /* UIImagePickerControllerHomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImagePickerControllerHomeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		038BE88319316A2F007F2736 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		038BE88B19316A2F007F2736 /* Homework2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Homework2Tests-Info.plist"; sourceTree = "<group>"; };
+		038BE88B19316A2F007F2736 /* Extending Class FunctionalityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Extending Class FunctionalityTests-Info.plist"; sourceTree = "<group>"; };
 		038BE88D19316A2F007F2736 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		038BE88F19316A2F007F2736 /* Homework2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Homework2Tests.m; sourceTree = "<group>"; };
+		038BE89919316AA8007F2736 /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BlogPost.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		038BE89A19316AA8007F2736 /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BlogPost.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		038BE89E19316DDF007F2736 /* BlogPostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BlogPostTableViewCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		038BE89F19316DDF007F2736 /* BlogPostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BlogPostTableViewCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		038BE8A21931900F007F2736 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DetailViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		038BE8A31931900F007F2736 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		038BE8A81931C549007F2736 /* UIColor+CustomColorCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = "UIColor+CustomColorCategory.h"; path = "../UIColor+CustomColorCategory.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		038BE8A91931C549007F2736 /* UIColor+CustomColorCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = "UIColor+CustomColorCategory.m"; path = "../UIColor+CustomColorCategory.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		03F6EE0D1932D39C009A731B /* colorfulMustache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorfulMustache.png; sourceTree = "<group>"; };
+		03F6EE0F1932D3A7009A731B /* NSMustache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NSMustache.png; sourceTree = "<group>"; };
+		03F6EE111933088A009A731B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		03F6EE1319330CC6009A731B /* UIImage+MonoChromeFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MonoChromeFilter.h"; sourceTree = "<group>"; };
+		03F6EE1419330CC6009A731B /* UIImage+MonoChromeFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MonoChromeFilter.m"; sourceTree = "<group>"; };
+		03F6EE1719330F75009A731B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F6EE1819330F75009A731B /* CoreImage.framework in Frameworks */,
+				03F6EE121933088A009A731B /* AssetsLibrary.framework in Frameworks */,
 				038BE86719316A2F007F2736 /* CoreGraphics.framework in Frameworks */,
 				038BE86919316A2F007F2736 /* UIKit.framework in Frameworks */,
 				038BE86519316A2F007F2736 /* Foundation.framework in Frameworks */,
@@ -82,8 +107,8 @@
 		038BE85819316A2E007F2736 = {
 			isa = PBXGroup;
 			children = (
-				038BE86A19316A2F007F2736 /* Homework2 */,
-				038BE88919316A2F007F2736 /* Homework2Tests */,
+				038BE86A19316A2F007F2736 /* ExtendingClassFunctionality */,
+				038BE88919316A2F007F2736 /* ExtendingClassFunctionalityTests */,
 				038BE86319316A2F007F2736 /* Frameworks */,
 				038BE86219316A2F007F2736 /* Products */,
 			);
@@ -92,8 +117,8 @@
 		038BE86219316A2F007F2736 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				038BE86119316A2F007F2736 /* Homework2.app */,
-				038BE88219316A2F007F2736 /* Homework2Tests.xctest */,
+				038BE86119316A2F007F2736 /* UIImagePickerControllerHomework.app */,
+				038BE88219316A2F007F2736 /* UIImagePickerControllerHomeworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +126,8 @@
 		038BE86319316A2F007F2736 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				03F6EE1719330F75009A731B /* CoreImage.framework */,
+				03F6EE111933088A009A731B /* AssetsLibrary.framework */,
 				038BE86419316A2F007F2736 /* Foundation.framework */,
 				038BE86619316A2F007F2736 /* CoreGraphics.framework */,
 				038BE86819316A2F007F2736 /* UIKit.framework */,
@@ -109,55 +136,109 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		038BE86A19316A2F007F2736 /* Homework2 */ = {
+		038BE86A19316A2F007F2736 /* ExtendingClassFunctionality */ = {
 			isa = PBXGroup;
 			children = (
-				038BE87319316A2F007F2736 /* AppDelegate.h */,
-				038BE87419316A2F007F2736 /* AppDelegate.m */,
-				038BE87619316A2F007F2736 /* Main.storyboard */,
-				038BE87919316A2F007F2736 /* ViewController.h */,
-				038BE87A19316A2F007F2736 /* ViewController.m */,
+				038BE8A119318229007F2736 /* Views */,
+				038BE89C19316AAC007F2736 /* Model */,
+				038BE89D19316AC3007F2736 /* Controllers */,
 				038BE87C19316A2F007F2736 /* Images.xcassets */,
 				038BE86B19316A2F007F2736 /* Supporting Files */,
 			);
+			name = ExtendingClassFunctionality;
 			path = Homework2;
 			sourceTree = "<group>";
 		};
 		038BE86B19316A2F007F2736 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				038BE86C19316A2F007F2736 /* Homework2-Info.plist */,
+				03F6EE1619330CD0009A731B /* Categories */,
+				03F6EE0C1932D36E009A731B /* Blog Images */,
+				038BE87319316A2F007F2736 /* AppDelegate.h */,
+				038BE87419316A2F007F2736 /* AppDelegate.m */,
+				038BE86C19316A2F007F2736 /* UIImagePickerControllerHomework-Info.plist */,
 				038BE86D19316A2F007F2736 /* InfoPlist.strings */,
 				038BE87019316A2F007F2736 /* main.m */,
-				038BE87219316A2F007F2736 /* Homework2-Prefix.pch */,
+				038BE87219316A2F007F2736 /* UIImagePickerControllerHomework-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		038BE88919316A2F007F2736 /* Homework2Tests */ = {
+		038BE88919316A2F007F2736 /* ExtendingClassFunctionalityTests */ = {
 			isa = PBXGroup;
 			children = (
 				038BE88F19316A2F007F2736 /* Homework2Tests.m */,
 				038BE88A19316A2F007F2736 /* Supporting Files */,
 			);
+			name = ExtendingClassFunctionalityTests;
 			path = Homework2Tests;
 			sourceTree = "<group>";
 		};
 		038BE88A19316A2F007F2736 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				038BE88B19316A2F007F2736 /* Homework2Tests-Info.plist */,
+				038BE88B19316A2F007F2736 /* Extending Class FunctionalityTests-Info.plist */,
 				038BE88C19316A2F007F2736 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		038BE89C19316AAC007F2736 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				038BE89E19316DDF007F2736 /* BlogPostTableViewCell.h */,
+				038BE89F19316DDF007F2736 /* BlogPostTableViewCell.m */,
+				038BE89919316AA8007F2736 /* BlogPost.h */,
+				038BE89A19316AA8007F2736 /* BlogPost.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		038BE89D19316AC3007F2736 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				038BE87919316A2F007F2736 /* ViewController.h */,
+				038BE87A19316A2F007F2736 /* ViewController.m */,
+				038BE8A21931900F007F2736 /* DetailViewController.h */,
+				038BE8A31931900F007F2736 /* DetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		038BE8A119318229007F2736 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				038BE87619316A2F007F2736 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		03F6EE0C1932D36E009A731B /* Blog Images */ = {
+			isa = PBXGroup;
+			children = (
+				03F6EE0F1932D3A7009A731B /* NSMustache.png */,
+				03F6EE0D1932D39C009A731B /* colorfulMustache.png */,
+			);
+			name = "Blog Images";
+			sourceTree = "<group>";
+		};
+		03F6EE1619330CD0009A731B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				038BE8A81931C549007F2736 /* UIColor+CustomColorCategory.h */,
+				038BE8A91931C549007F2736 /* UIColor+CustomColorCategory.m */,
+				03F6EE1319330CC6009A731B /* UIImage+MonoChromeFilter.h */,
+				03F6EE1419330CC6009A731B /* UIImage+MonoChromeFilter.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		038BE86019316A2F007F2736 /* Homework2 */ = {
+		038BE86019316A2F007F2736 /* UIImagePickerControllerHomework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 038BE89319316A2F007F2736 /* Build configuration list for PBXNativeTarget "Homework2" */;
+			buildConfigurationList = 038BE89319316A2F007F2736 /* Build configuration list for PBXNativeTarget "UIImagePickerControllerHomework" */;
 			buildPhases = (
 				038BE85D19316A2F007F2736 /* Sources */,
 				038BE85E19316A2F007F2736 /* Frameworks */,
@@ -167,14 +248,14 @@
 			);
 			dependencies = (
 			);
-			name = Homework2;
+			name = UIImagePickerControllerHomework;
 			productName = Homework2;
-			productReference = 038BE86119316A2F007F2736 /* Homework2.app */;
+			productReference = 038BE86119316A2F007F2736 /* UIImagePickerControllerHomework.app */;
 			productType = "com.apple.product-type.application";
 		};
-		038BE88119316A2F007F2736 /* Homework2Tests */ = {
+		038BE88119316A2F007F2736 /* UIImagePickerControllerHomeworkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 038BE89619316A2F007F2736 /* Build configuration list for PBXNativeTarget "Homework2Tests" */;
+			buildConfigurationList = 038BE89619316A2F007F2736 /* Build configuration list for PBXNativeTarget "UIImagePickerControllerHomeworkTests" */;
 			buildPhases = (
 				038BE87E19316A2F007F2736 /* Sources */,
 				038BE87F19316A2F007F2736 /* Frameworks */,
@@ -185,9 +266,9 @@
 			dependencies = (
 				038BE88819316A2F007F2736 /* PBXTargetDependency */,
 			);
-			name = Homework2Tests;
+			name = UIImagePickerControllerHomeworkTests;
 			productName = Homework2Tests;
-			productReference = 038BE88219316A2F007F2736 /* Homework2Tests.xctest */;
+			productReference = 038BE88219316A2F007F2736 /* UIImagePickerControllerHomeworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +285,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 038BE85C19316A2E007F2736 /* Build configuration list for PBXProject "Homework2" */;
+			buildConfigurationList = 038BE85C19316A2E007F2736 /* Build configuration list for PBXProject "UIImagePickerControllerHomework" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +298,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				038BE86019316A2F007F2736 /* Homework2 */,
-				038BE88119316A2F007F2736 /* Homework2Tests */,
+				038BE86019316A2F007F2736 /* UIImagePickerControllerHomework */,
+				038BE88119316A2F007F2736 /* UIImagePickerControllerHomeworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,6 +312,8 @@
 				038BE87D19316A2F007F2736 /* Images.xcassets in Resources */,
 				038BE86F19316A2F007F2736 /* InfoPlist.strings in Resources */,
 				038BE87819316A2F007F2736 /* Main.storyboard in Resources */,
+				03F6EE0E1932D39C009A731B /* colorfulMustache.png in Resources */,
+				03F6EE101932D3A7009A731B /* NSMustache.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +334,12 @@
 			files = (
 				038BE87B19316A2F007F2736 /* ViewController.m in Sources */,
 				038BE87519316A2F007F2736 /* AppDelegate.m in Sources */,
+				038BE8A019316DDF007F2736 /* BlogPostTableViewCell.m in Sources */,
+				038BE8AA1931C549007F2736 /* UIColor+CustomColorCategory.m in Sources */,
 				038BE87119316A2F007F2736 /* main.m in Sources */,
+				038BE89B19316AA8007F2736 /* BlogPost.m in Sources */,
+				03F6EE1519330CC6009A731B /* UIImage+MonoChromeFilter.m in Sources */,
+				038BE8A41931900F007F2736 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +356,7 @@
 /* Begin PBXTargetDependency section */
 		038BE88819316A2F007F2736 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 038BE86019316A2F007F2736 /* Homework2 */;
+			target = 038BE86019316A2F007F2736 /* UIImagePickerControllerHomework */;
 			targetProxy = 038BE88719316A2F007F2736 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -377,9 +465,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Homework2/Homework2-Prefix.pch";
-				INFOPLIST_FILE = "Homework2/Homework2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Homework2/UIImagePickerControllerHomework-Prefix.pch";
+				INFOPLIST_FILE = "Homework2/UIImagePickerControllerHomework-Info.plist";
+				PRODUCT_NAME = UIImagePickerControllerHomework;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,9 +478,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Homework2/Homework2-Prefix.pch";
-				INFOPLIST_FILE = "Homework2/Homework2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Homework2/UIImagePickerControllerHomework-Prefix.pch";
+				INFOPLIST_FILE = "Homework2/UIImagePickerControllerHomework-Info.plist";
+				PRODUCT_NAME = UIImagePickerControllerHomework;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -412,8 +500,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Homework2Tests/Homework2Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Homework2Tests/Extending Class FunctionalityTests-Info.plist";
+				PRODUCT_NAME = UIImagePickerControllerHomeworkTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -430,8 +518,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Homework2/Homework2-Prefix.pch";
-				INFOPLIST_FILE = "Homework2Tests/Homework2Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Homework2Tests/Extending Class FunctionalityTests-Info.plist";
+				PRODUCT_NAME = UIImagePickerControllerHomeworkTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -440,7 +528,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		038BE85C19316A2E007F2736 /* Build configuration list for PBXProject "Homework2" */ = {
+		038BE85C19316A2E007F2736 /* Build configuration list for PBXProject "UIImagePickerControllerHomework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				038BE89119316A2F007F2736 /* Debug */,
@@ -449,21 +537,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		038BE89319316A2F007F2736 /* Build configuration list for PBXNativeTarget "Homework2" */ = {
+		038BE89319316A2F007F2736 /* Build configuration list for PBXNativeTarget "UIImagePickerControllerHomework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				038BE89419316A2F007F2736 /* Debug */,
 				038BE89519316A2F007F2736 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		038BE89619316A2F007F2736 /* Build configuration list for PBXNativeTarget "Homework2Tests" */ = {
+		038BE89619316A2F007F2736 /* Build configuration list for PBXNativeTarget "UIImagePickerControllerHomeworkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				038BE89719316A2F007F2736 /* Debug */,
 				038BE89819316A2F007F2736 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

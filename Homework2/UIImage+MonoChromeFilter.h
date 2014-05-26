@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreImage/CoreImage.h>
+#import "UIColor+CustomColorCategory.h"
 
 @interface UIImage (MonoChromeFilter)
+
++ (UIImage *) applyMonoChromeWithImage: (UIImage *)uIImage andColor:(UIColor *)passColor;
 
 @end
